@@ -1,0 +1,33 @@
+{
+  "name": "woo-next",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "svg": "svgr -d src/components/icons src/components/icons/svgs"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.2.5",
+    "@svgr/cli": "^5.5.0",
+    "graphql": "^15.4.0",
+    "lodash": "^4.17.20",
+    "next": "10.0.1",
+    "node-fetch": "^2.6.1",
+    "nprogress": "^0.2.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "sass": "^1.29.0",
+    "uuid": "^8.3.1",
+    "validator": "^13.1.17"
+  },
+  "devDependencies": {
+    "install": "^0.13.0",
+    "postcss-flexbugs-fixes": "^5.0.1",
+    "postcss-import": "^13.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "precss": "^4.0.0",
+    "tailwindcss": "^1.9.6"
+  }
+}
